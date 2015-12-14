@@ -64,7 +64,7 @@ setup(
         'OpenFisca-Core >= 0.5dev',
         'scipy >= 0.12',
         ],
-    message_extractors = {'modulation_allocations_familiales': [
+    message_extractors = {'openfisca_utils': [
         ('**.py', 'python', None),
         ]},
     packages = find_packages(),
